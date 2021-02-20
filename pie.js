@@ -4,16 +4,15 @@ google.charts.load('current', {'packages':['corechart']});
       function drawChart() {
 
         var data = google.visualization.arrayToDataTable([
-          ['Task', 'Hours per Day'],
-          ['Work',     11],
-          ['Eat',      2],
-          ['Commute',  2],
-          ['Watch TV', 2],
-          ['Sleep',    7]
+          ['Type', 'How Many'],
+          ['insects',     4],
+          ['birds',      44],
+          ['mammals',  4],
+          ['other invertebrates', 1],
         ]);
 
         var options = {
-          title: 'My Daily Activities'
+          title: 'Animals I Saw'
         };
 
         var chart = new google.visualization.PieChart(document.getElementById('piechart'));
