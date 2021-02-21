@@ -13,6 +13,7 @@ google.charts.load('current', {'packages':['corechart']});
 
         var options = {
           title: 'Animals I Saw'
+             is3D: true 
         };
 
         var chart = new google.visualization.PieChart(document.getElementById('piechart'));
