@@ -6,15 +6,19 @@ google.charts.load('current', {'packages':['gauge']});
         var data = google.visualization.arrayToDataTable([
           
          ['Label', 'Value'],
-          ['Car On Highway', '60mph'],
-          ['Speed Of Light', '300000mps']
+              ['Garden Snail' '0.03 mph'],
+              ['Great White Shark', '35 mph'],
+          ['Car On Highway', '60 mph'],
+           ['Speed Of Sound', '767.269148 mph'],  
+          ['Speed Of Light', '300000 mps']
         ]);
 
         var options = {
           width: 400, height: 120,
           redFrom: 90, redTo: 100,
           yellowFrom:75, yellowTo: 90,
-          minorTicks: 5
+          minorTicks: 5,\
+              title: 'speed comparison'
         };
 
         var chart = new google.visualization.Gauge(document.getElementById('chart_div'));
