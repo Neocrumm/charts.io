@@ -12,7 +12,7 @@ google.charts.load('current', {'packages':['corechart']});
         ]);
 
         var options = {
-          title: 'Animals I Saw'
+          title: 'Animals I Saw',
              is3D: true 
         };
 
