@@ -6,11 +6,11 @@ google.charts.load('current', {'packages':['gauge']});
         var data = google.visualization.arrayToDataTable([
           
          ['Label', 'Value'],
-              ['Garden Snail' '0.03 mph'],
-              ['Great White Shark', '35 mph'],
-          ['Car On Highway', '60 mph'],
-           ['Speed Of Sound', '767.269148 mph'],  
-          ['Speed Of Light', '300000 mps']
+              ['Garden Snail' 0.03],
+              ['Great White Shark', 35],
+          ['Car On Highway', 60],
+           ['Speed Of Sound', 767.269148],  
+          ['Speed Of Light', 300000]
         ]);
 
         var options = {
