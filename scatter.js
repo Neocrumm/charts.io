@@ -10,7 +10,7 @@ google.charts.load('current', {'packages':['corechart']});
           [ 4,      5],
           [ 3,      3.5],
           [ 6.5,    7]
-          [12,       50.620908]
+          
         ]);
 
         var options = {
